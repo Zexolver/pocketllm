@@ -1,0 +1,19 @@
+name: pocketllm
+description: Run GGUF AI models on Android, search and download from Hugging Face, and serve an OpenAI-compatible API.
+publish_to: none
+version: 0.1.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  dio: ^5.4.0
+  path_provider: ^2.1.0
+  shared_preferences: ^2.2.0
+  flutter_foreground_task: ^8.0.0
+
+flutter:
+  uses-material-design: true

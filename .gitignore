@@ -1,0 +1,11 @@
+android/
+build/
+.dart_tool/
+llama.cpp/
+build-llama/
+jniLibs/
+pubspec.lock
+.flutter-plugins*
+.metadata
+analysis_options.yaml
+test/
